@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+  <!--  <listeners><listener class-name="failetestscripts.IAnnotationExample"/>
+    </listeners>-->
+  <!--  <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>-->
+    <test verbose="2" preserve-order="true" name="C:/Users/Admin/IdeaProjects/MavenAutomationProject">
+        <classes>
+           <!-- <class name="basictestng.TestNGExample">
+                <methods>
+                    <exclude name="verifyFlipkartWebsite"/>
+                    <include name="verifyAmazonWebsite"/>
+                </methods>
+            </class>
+           <class name="basictestng.annotation.BeforeClassAfterClassExample">
+                <methods>
+                    <include name="verifyTestCase1"/>
+                    <include name="verifyTestCase2"/>
+                </methods>
+            </class>
+            <class name="basictestng.annotation.BeforeMethodAndAfterMethodEx">
+                <methods>
+                    <include name="verifyFlipkartWebsite"/>
+                    <include name="verifyAmazonWebsite"/>
+                </methods>
+            </class>-->
+           <!-- <class name="failetestscripts.FailScriptsExecution"/>-->
+            <class name="parameterization.DataProviderWithExcelFileExample"/>
+           <!-- <class name="basictestng.annotation.attribute.BeforeTestAfterTestExample"/>
+            <class name="basictestng.annotation.attribute.DependsOnMethodExample">
+                <methods>
+                    <include name="verifyLogIn"/>
+                    <include name="verifyLogOut"/>
+                </methods>
+            </class>
+            <class name="basictestng.annotation.attribute.EnableExample">
+                <methods>
+                    <include name="verifyLogIn"/>
+                    <include name="verifyLogOut"/>
+                </methods>
+            </class>
+            <class name="basictestng.annotation.attribute.InvocationCountExample">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="basictestng.annotation.attribute.InvocationTimeOutExample">
+                <methods>
+                    <include name="flipkartMethod"/>
+                </methods>
+            </class>
+            <class name="basictestng.priority.PriorityExample">
+                <methods>
+                    <include name="verifyTestCaseS"/>
+                    <include name="verifyTestCaseA"/>
+                    <include name="verifyTestCaseK"/>
+                    <include name="verifyTestCaseL"/>
+                    <include name="verifyTestCaseE"/>
+                    <include name="verifyTestCaseD"/>
+                </methods>
+            </class>
+            <class name="basictestng.priority.PriorityExample1">
+                <methods>
+                    <include name="verifyTestCaseS"/>
+                    <include name="verifyTestCaseA"/>
+                    <include name="verifyTestCaseK"/>
+                    <include name="verifyTestCaseL"/>
+                    <include name="verifyTestCaseE"/>
+                    <include name="verifyTestCaseD"/>
+                </methods>
+            </class>
+            <class name="basictestng.priority.PriorityExample2">
+                <methods>
+                    <include name="verifyTestCaseS"/>
+                    <include name="verifyTestCaseA"/>
+                    <include name="verifyTestCaseK"/>
+                    <include name="verifyTestCaseL"/>
+                    <include name="verifyTestCaseE"/>
+                </methods>
+            </class>
+            <class name="basictestng.priority.PriorityExample3">
+                <methods>
+                    <include name="verifyTestCaseS"/>
+                    <include name="verifyTestCaseA"/>
+                    <include name="verifyTestCaseK"/>
+                    <include name="verifyTestCaseL"/>
+                    <include name="verifyTestCaseE"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite>
