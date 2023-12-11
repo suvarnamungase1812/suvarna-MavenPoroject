@@ -11,7 +11,7 @@ public class TestNGExample {
         System.setProperty("WebDriver.chrome.driver", " C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.flipkart.com");
-        System.out.println("good morning everyone");
+        System.out.println("good morning");
 driver.close();
 }
     @Test
