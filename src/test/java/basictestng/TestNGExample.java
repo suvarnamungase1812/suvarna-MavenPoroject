@@ -14,12 +14,14 @@ public class TestNGExample {
         driver.manage().window().fullscreen();
 driver.close();
 }
-    @Test(groups = "smoke")
+    @Test
     public void verifyAmazonWebsite(){
 
         System.setProperty("WebDriver.chrome.driver", " C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com");
         driver.manage().window().fullscreen();
+        System.out.println("Hello");
+        System.out.println("How Are You");
         driver.close();
     }}
