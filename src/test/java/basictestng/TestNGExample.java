@@ -11,7 +11,7 @@ public class TestNGExample {
         System.setProperty("WebDriver.chrome.driver", " C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.flipkart.com");
-        driver.manage().window().fullscreen();
+        System.out.println("good morning");
 driver.close();
 }
     @Test
@@ -20,7 +20,6 @@ driver.close();
         System.setProperty("WebDriver.chrome.driver", " C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com");
-        driver.manage().window().fullscreen();
         System.out.println("Hello");
         System.out.println("How Are You");
         driver.close();
